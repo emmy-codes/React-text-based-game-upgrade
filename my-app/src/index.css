@@ -39,6 +39,7 @@ body {
     height: auto;
     border: 5px solid white;
     margin: auto;
+    display: flex;
 }
 
 .rightbox {

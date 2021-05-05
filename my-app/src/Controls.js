@@ -2,7 +2,6 @@ import React from "react"
 
 function Controls() {
     return (
-      <>
         <div className="leftbox">
           <div className="inventory-controls">
             <h3 className="header2">Controls</h3>
@@ -25,7 +24,6 @@ function Controls() {
             </li>
           </ul>
         </div>
-      </>
     );
 }
 

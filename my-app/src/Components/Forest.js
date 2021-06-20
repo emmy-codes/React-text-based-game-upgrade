@@ -1,9 +1,8 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>The Secret Realm</title>
-    <link rel="stylesheet" href="game.css" />
-  </head>
+import React from "react"
+
+function Forest(){
+  return(
+<>
   <h1 class="header1">The Secret Realm</h1>
   <h2 class="header2">Journey into Kaos</h2>
   <body>
@@ -62,7 +61,6 @@
 
           <div class="bottombox">
             <form class="form">
-              <!-- form allows you to have the same reaction when both hitting enter and clicking the button-->
               <input type="text" class="input" />
               <button type="submit">Enter</button>
             </form>
@@ -81,4 +79,5 @@
     </div>
   </body>
   <script src="game.js"></script>
-</html>
+</>
+  )}

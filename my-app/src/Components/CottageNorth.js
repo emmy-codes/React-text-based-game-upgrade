@@ -1,19 +1,13 @@
+import React from "react"
 
-<html>
-  <head>
-    <title>
-      The Secret Realm
-    </title>
-    <link rel="stylesheet" href="game.css">
-    <!-- add link for game.js-->
-    </head>
-    <h1 class="header1">The Secret Realm</h1>
-    <h2 class="header2">Journey into Kaos</h2>
+function CottageEast(){
+  return(
+<>
 <body>
 
 <div class="gamebox" id="page5">
 <div class="torches">
-  <img src="torch.gif">
+  <img src="torch.gif" />
 </div>
   <div class="outerbox">
     <div class="leftbox">
@@ -34,7 +28,6 @@
             Upon approaching the building, you notice that there is a makeshift barricade in front of the door. 
             All of the windows are boarded up but there is one <span class="orange">Window</span> that is partially uncovered. You can exit to the <span class="green">South</span>.
         </p>
-        <!--hidden "Look Window"-->
         <p class="textp hidden Look">You decide to step up to the window to see if you can get an idea of what is inside. A thick layer of dirt and dust covers the glass, 
           which you gingerly wipe away with one hand. Cupping your hands round your eyes to get a better view, you lean in close to the glass. It all appears dark, dead and still. 
           Something darts suddenly into your field of vision, a furry blur with no distinguishable features. It shoots by the window and out of view. Did it notice you? 
@@ -42,7 +35,7 @@
       </div>
       
       <div class="bottombox">
-        <form class="form"> <!-- form allows you to have the same reaction when both hitting enter and clicking the button-->
+        <form class="form"> 
           <input type="text" class="input" />
           <button type="submit">Enter</button>
         </form>
@@ -56,9 +49,9 @@
   </div>
   </div>
   <div class="torches">
-    <img src="torch.gif">
+    <img src="torch.gif" />
   </div>
 </div>
 </body>
-<script src="game.js"></script>
-</html>
+</>
+)}
